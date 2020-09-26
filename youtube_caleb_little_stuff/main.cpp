@@ -1,8 +1,8 @@
 #include <iostream>
 
-using namespace std;
+using std::cout;
 
 int main()
 {
-  cout << "Quick build!\n";
+    cout << "Quick build!\n";
 }
