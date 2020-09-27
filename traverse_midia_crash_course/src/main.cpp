@@ -3,9 +3,9 @@ using namespace std;
 
 void print_menu(string name);
 
-int main(int arg_coun, char *args[])
+int main(int arg_count, char *args[])
 {
-  if (arg_coun > 1)
+  if (arg_count > 1)
   {
     string name(args[1]);
     print_menu(name);
